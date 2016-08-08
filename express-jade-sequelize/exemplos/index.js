@@ -60,7 +60,7 @@ app.post('/users/create',function(req,res){
   }).catch(function(err){
     console.log('Error=>',err);
   });
-})
+});
 
 app.get('/users/:id',function(req,res){
   //User.findOne({
